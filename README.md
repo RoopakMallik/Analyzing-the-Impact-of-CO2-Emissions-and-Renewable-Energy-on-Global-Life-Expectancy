@@ -21,9 +21,11 @@
    - File: `Data_Export_Postgres/Data_Export_Postgres.ipynb`
 
 5. **Analysis**:
+   - <b> Note: Install Plotly to view and interact with Interactive Visualisations and Graphs.
    - Performs exploratory data analysis and visualizations.
    - Files:
-     - `Analysis/analysis.ipynb`
+     - `Analysis/Dashboard.ipynb`
+     - `Dashboard.ipynb`
      - `Main.ipynb`
 
 ## Prerequisites
