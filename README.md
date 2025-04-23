@@ -1,6 +1,8 @@
 
 ### Key Components
 
+### Note: Path of some files might be required to change to run the files depending on the Operating System or Environment.
+
 1. **Data Collection**:
    - Collects data on CO2 emissions, renewable energy share, and life expectancy.
    - Files: 
@@ -10,7 +12,7 @@
 2. **Data Loading**:
    - Loads data into MongoDB for storage.
    - File: `Data_Load_MongoDB/Data_Loading_MongoDB.py`
-   - 
+    
 3. **Data Transformation**:
    - Transforms raw data into a format suitable for analysis.
    - File: `Data_Transformation/Data_Transformation.ipynb`
