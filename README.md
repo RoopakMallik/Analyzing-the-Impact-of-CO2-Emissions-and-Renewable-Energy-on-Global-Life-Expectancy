@@ -7,14 +7,13 @@
      - `Data_Collection/emission_data_collection.ipynb`
      - `Data_Collection/life_expectancy.ipynb`
      - `Data_Collection/renewable_energy_data_collection.ipynb`
-
-2. **Data Transformation**:
+2. **Data Loading**:
+   - Loads data into MongoDB for storage.
+   - File: `Data_Load_MongoDB/Data_Loading_MongoDB.py`
+   - 
+3. **Data Transformation**:
    - Transforms raw data into a format suitable for analysis.
    - File: `Data_Transformation/Data_Transformation.ipynb`
-
-3. **Data Loading**:
-   - Loads data into MongoDB for storage and querying.
-   - File: `Data_Load_MongoDB/Data_Loading_MongoDB.py`
 
 4. **Data Export**:
    - Exports data to PostgreSQL for further analysis.
@@ -41,3 +40,7 @@
    ```bash
    git clone <repository-url>
    cd Analyzing-the-Impact-of-CO2-Emissions-and-Renewable-Energy-on-Global-Life-Expectancy
+2. Run the project:<br>
+  Step 1. To run the project execute the files in a sequence as mentioned above or simply run the `Main.ipynb` for Data Extraction, Transformation and Load.<br>
+  Step 2. Run the `Analysis/Dashboard.ipynb` or `Dashboard.ipynb` scripts directly after executing/running the ETL Process files to view the Analysis and Interactive Visualizations.
+
