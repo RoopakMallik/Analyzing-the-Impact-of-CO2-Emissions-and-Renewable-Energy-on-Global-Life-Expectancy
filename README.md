@@ -17,12 +17,13 @@
    - Transforms raw data into a format suitable for analysis.
    - File: `Data_Transformation/Data_Transformation.ipynb`
 
-4. **Data Export**:
+4. **Data Export**:<br>
+   - Note: Change the PostgreSQL Database Credentials according to your local Postgre Database.
    - Exports data to PostgreSQL for further analysis.
    - File: `Data_Export_Postgres/Data_Export_Postgres.ipynb`
 
-5. **Analysis**:
-   - <b> Note: Install Plotly to view and interact with Interactive Visualisations and Graphs.
+6. **Analysis**:
+   - Note: Install Plotly to view and interact with Interactive Visualisations and Graphs.
    - Performs exploratory data analysis and visualizations.
    - Files:
      - `Analysis/Dashboard.ipynb`
